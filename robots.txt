@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /*.html$
+Allow: /
+
+# Sitemap URL
+Sitemap: https://america-window-film.vercel.app/sitemap.xml
