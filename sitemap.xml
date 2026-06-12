@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://america-window-film.vercel.app/</loc></url>
-  <url><loc>https://america-window-film.vercel.app/pelicula-antivandalismo.html</loc></url>
-  <url><loc>https://america-window-film.vercel.app/pelicula-residencial.html</loc></url>
+  
+  <!-- Página Inicial -->
+  <url>
+    <loc>https://america-window-film.vercel.app/</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  
+  <!-- Páginas de Serviços e Películas -->
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-antivandalismo.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-antivandalismo-funciona.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-residencial.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-automotiva.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-carbon.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-nanoceramic.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-controle-solar.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/nanoceramic-vs-carbon.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+
+  <!-- Páginas Locais e de Conteúdo -->
+  <url>
+    <loc>https://america-window-film.vercel.app/insulfilm-sao-paulo.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-jardim-vergueiro.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-para-escritorio.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/pelicula-para-loja-vitrine.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+
+  <!-- Blog / Artigos de Atração -->
+  <url>
+    <loc>https://america-window-film.vercel.app/como-reduzir-calor-em-apartamento.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://america-window-film.vercel.app/como-ter-privacidade-sem-perder-luz.html</loc>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+
 </urlset>
