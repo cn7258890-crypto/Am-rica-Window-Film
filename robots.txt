@@ -1,7 +1,21 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /*.html$
-Allow: /
 
-# Sitemap URL
+# 1. Permissões de Páginas (Foco total no conteúdo)
+Allow: /
+Allow: /*.html$
+
+# 2. Bloqueios Estratégicos (Economiza Crawl Budget)
+# Evita que o Google gaste tempo indexando arquivos soltos de imagem ou ícones que já estão dentro das páginas
+Disallow: /favicon.ico
+Disallow: /favicon1.ico
+Disallow: /favicon-2.png
+Disallow: /favicon-96x96.png
+Disallow: /favicon.svg
+Disallow: /logo.png
+Disallow: /logo-transparent.png
+
+# Bloqueia o arquivo de verificação antiga do Google para não gerar conteúdo duplicado
+Disallow: /googlefe4172707821604.html
+
+# 3. Indicação do Mapa do Site
 Sitemap: https://america-window-film.vercel.app/sitemap.xml
