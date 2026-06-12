@@ -41,44 +41,70 @@
 
   <!-- ===== SCHEMA.ORG STRUCTURED DATA ===== -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "América Window Film",
-    "description": "Distribuidora de insufilm e películas automotivas, residenciais e de segurança. Representante Origin Film: Nanoceramic, Carbon e Antivandalismo.",
-    "url": "https://americawindowfilm.com.br",
-    "telephone": "+5511986304908",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Rua camajo 82, Jardim Vergueiro",
-      "addressLocality": "São Paulo",
-      "addressRegion": "SP",
-      "addressCountry": "BR"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": -23.615,
-      "longitude": -46.637
-    },
-    "openingHoursSpecification": {
+ {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "América Window Film",
+  "description": "Distribuidora de insufilm e películas automotivas, residenciais e de segurança. Representante Origin Film: Nanoceramic, Carbon e Antivandalismo.",
+  "url": "https://americawindowfilm.com.br",
+  "telephone": "+5511986304908",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Camajo, 82 - Jardim Vergueiro",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -23.615,
+    "longitude": -46.637
+  },
+  "openingHoursSpecification": [
+    {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-      "opens": "08:00",
-      "closes": "18:00"
-    },
-    "sameAs": [
-      "https://wa.me/5511986304908"
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Películas e Insufilm",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Origin Film Nanoceramic"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Origin Film Carbon"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Película Antivandalismo"}}
-      ]
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "07:00",
+      "closes": "17:00"
     }
+  ],
+  "sameAs": [
+    "https://wa.me/5511986304908"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Películas e Insufilm",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Origin Film Nanoceramic"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Origin Film Carbon"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Película Antivandalismo"
+        }
+      }
+    ]
   }
+}
   </script>
 
   <!-- Google Fonts -->
